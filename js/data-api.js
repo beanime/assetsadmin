@@ -35,7 +35,7 @@ var KTDatatableDataLocalDemo = {
             }, {
                 field: "post_name",
                 title: "Name",
-                type: "num"
+                type: "number"
             }, {
                 field: "post_image",
                 title: "Image",
