@@ -42,7 +42,7 @@ var KTDatatableDataLocalDemo = {
                 field: "post_image",
                 title: "Image",
                 template: function(t) {
-                    return '<a href="'+HOST_URL+'/images/posts/200/'+t.post_image+'" target="_blank"><img class="lazyload" data-src="/images/posts/90/'+t.post_image+'" alt=""></a>'
+                    return '<a href="https://images.weserv.nl/?url=beanime.xyz/images/posts/200/'+t.post_image+'" target="_blank"><img class="lazyload" data-src="https://images.weserv.nl/?url=beanime.xyz/images/posts/50/'+t.post_image+'?output=webp" alt=""></a>'
                 }
             }, {
                 field: "category_name",
