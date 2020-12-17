@@ -31,11 +31,11 @@ var KTDatatableDataLocalDemo = {
                 field: "post_id",
                 title: "ID",
                 width: 30,
+                type: "number",
                 textAlign: "center"
             }, {
                 field: "post_name",
-                title: "Name",
-                type: "number"
+                title: "Name"
             }, {
                 field: "post_image",
                 title: "Image",
