@@ -55,6 +55,9 @@ var KTDatatableDataLocalDemo = {
                 field: "post_episodes",
                 title: "Episode",
             }, {
+                field: "created_at",
+                title: "Create",
+            }, {
                 field: "updated_at",
                 title: "Update",
             }, {
