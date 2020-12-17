@@ -33,9 +33,6 @@ var KTDatatableDataLocalDemo = {
                 width: 30,
                 textAlign: "center"
             }, {
-                field: "updated_at",
-                title: "Update",
-            }, {
                 field: "post_name",
                 title: "Name",
             }, {
@@ -56,6 +53,9 @@ var KTDatatableDataLocalDemo = {
             }, {
                 field: "post_episodes",
                 title: "Episode",
+            }, {
+                field: "updated_at",
+                title: "Update",
             }, {
                 field: "Actions",
                 width: 125,
