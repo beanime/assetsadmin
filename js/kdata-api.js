@@ -41,7 +41,7 @@ var KTDatatableDataLocalDemo = {
                 field: "komik_image",
                 title: "Image",
                 template: function(t) {
-                    return '<a href="'+HOST_URL+'/images/komik/200/'+t.komik_image+'" target="_blank"><img class="lazyload" data-src="/images/komik/50/'+t.komik_image+'" alt=""></a>'
+                    return '<a href="https://images.weserv.nl/?url=beanime.xyz/images/komik/200/'+t.komik_image+'" target="_blank"><img class="lazyload" data-src="https://images.weserv.nl/?url=beanime.xyz/images/komik/50/'+t.komik_image+'" alt=""></a>'
                 }
             }, {
                 field: "ksub_name",
